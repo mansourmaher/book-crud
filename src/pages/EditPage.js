@@ -39,9 +39,9 @@ export default function EditBookPage({ handelGetBookById, handelUpdate }) {
       <div className="flex justify-center items-center h-screen mx-auto">
         <Card className="border border-b-2 md:p-16 w-full m-8 p-4  md:w-[600px]">
           <div className="px-6">
-            <h1 className="text-3xl font-semibold ">Create a new Book</h1>
+            <h1 className="text-3xl font-semibold ">Edit Book</h1>
             <p className="text-gray-500">
-              Fill in the form below to create a new book
+              Fill in the form below to edit a book
             </p>
           </div>
           <CardBody className="mt-8   ">
@@ -58,8 +58,8 @@ export default function EditBookPage({ handelGetBookById, handelUpdate }) {
               />
               <Input
                 variant="standard"
-                label="Book Name"
-                placeholder="Enter book name"
+                label="author"
+                placeholder="Enter book author"
                 size="lg"
                 color="light-blue"
                 name="author"
