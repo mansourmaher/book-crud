@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.1.5",
-    "@material-tailwind/react": "^2.1.9",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -38,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.27.0",
-    "tailwindcss": "^3.4.13"
+    "react-router-dom": "^6.27.0"
   }
 }
